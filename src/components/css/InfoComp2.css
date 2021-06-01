@@ -1,28 +1,34 @@
-.Info-container {
+.Info-container2 {
   width: 100%;
-  min-height: 275px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px 0px;
   background-image: url("../../../public/visabackground.png");
-  background-position: right;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: 500px auto;
 }
-.Info-text {
+.Info-text2 {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   text-align: center;
 }
 
-.Info-container h2 {
+.Info-container2 h2 {
   text-align: center;
   font-size: 35px;
 }
 
-.Info-container p {
+.Info-container2 p {
   width: 75%;
   text-align: center;
   margin: 0 auto 30px auto;
+}
+
+@media (max-width: 755px) {
+  .Info-container2 {
+    height: 350px;
+  }
 }

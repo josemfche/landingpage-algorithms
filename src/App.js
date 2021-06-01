@@ -4,7 +4,9 @@ import NavHeader from "./components/NavHeader";
 import Hero from "./components/Hero";
 import ImageComponent from "./components/ImageComponent";
 import InfoComp1 from "./components/InfoComp1";
+import InfoComp2 from "./components/InfoComp2";
 import CardsSlide from "./components/CardsSlide";
+import InfoPurchase from "./components/InfoPurchase";
 
 const App = () => (
   <div className="main">
@@ -20,6 +22,8 @@ const App = () => (
         <ImageComponent />
         <InfoComp1 />
         <CardsSlide />
+        <InfoPurchase />
+        <InfoComp2 />
       </div>
     </div>
   </div>
