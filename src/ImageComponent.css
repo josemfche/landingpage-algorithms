@@ -1,0 +1,12 @@
+.image-div {
+  z-index: 99;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.image-div img {
+  max-width: 350px;
+  height: auto;
+  z-index: 100;
+}

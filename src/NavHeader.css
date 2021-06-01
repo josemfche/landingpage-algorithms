@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99999999;
+}
+
+.nav-left {
+  justify-content: flex-start;
+}
+.nav-center {
+  justify-content: center;
+}
+.nav-right {
+  justify-content: flex-end;
+}
+.nav-text {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 0 15px;
+}
