@@ -1,6 +1,6 @@
 import React from "react";
 import CreditCard from "../../public/creditcard.png";
-import "../ImageComponent.css";
+import "../components/css/ImageComponent.css";
 
 const ImageComponent = () => {
   return (

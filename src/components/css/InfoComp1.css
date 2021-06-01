@@ -1,0 +1,24 @@
+.Info-container {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.Info-text {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  text-align: center;
+}
+
+.Info-container h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.Info-container p {
+  width: 75%;
+  text-align: center;
+  margin: 0 auto 30px auto;
+}

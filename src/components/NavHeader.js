@@ -1,5 +1,5 @@
 import React from "react";
-import "../NavHeader.css";
+import "../components/css/NavHeader.css";
 
 const NavHeader = () => {
   return (
