@@ -26,6 +26,12 @@
   flex-direction: column;
   margin: 0 auto;
 }
+.container-fluid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
 
 @media (max-width: 767px) {
   .main .shape {

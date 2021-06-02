@@ -1,0 +1,98 @@
+.userform-container {
+  display: flex;
+  width: 33%;
+  flex-direction: row;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+.userform-container .userform {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: none;
+  margin: 5px 0;
+  padding: 0px 20px 20px 20px;
+  transition: box-shadow 0.2s ease-in-out;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%), 0 -1px 2px 0 rgb(0 0 0 / 10%);
+  font-family: "Open Sans";
+  height: auto;
+  color: #444444;
+}
+
+.userform-container .userform h2,
+h3 {
+  text-align: left;
+}
+.userform-container .userform span {
+  font-size: 18px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.userform-container .userform span input {
+  height: 30px;
+  padding: 6px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px rgba(66, 66, 66, 0.75);
+  transition: outline-color 100ms linear;
+}
+.userform-container .userform span input:focus {
+  outline-color: #7593f3;
+}
+.userform-container .userform span input:disabled {
+  background-color: #e2e2e2;
+}
+.userform-container .userform span strong {
+  color: #113d69;
+}
+
+.buttons-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 15px 0;
+}
+.buttons-group .button-back {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 0 5px;
+  font-weight: 600;
+  padding: 10 15;
+  transition: 300ms linear;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%), 0 -1px 2px 0 rgb(0 0 0 / 10%);
+  cursor: pointer;
+}
+.buttons-group .button-save {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: none;
+  background-color: #009118;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 0 5px;
+  font-weight: 600;
+  padding: 10 15;
+  transition: opacity 300ms linear;
+  cursor: pointer;
+}
+
+.buttons-group .button-edit:hover,
+.buttons-group .button-back:hover {
+  opacity: 0.7;
+}
