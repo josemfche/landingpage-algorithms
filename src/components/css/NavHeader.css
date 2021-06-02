@@ -1,6 +1,8 @@
 .nav {
   display: flex;
   height: 50px;
+  margin: 0 auto;
+  max-width: 1170px;
   width: 100%;
   justify-content: space-between;
   align-items: center;
