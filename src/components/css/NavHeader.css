@@ -40,3 +40,17 @@
   color: #ffffff;
   padding: 0 15px;
 }
+
+@media (max-width: 550px) {
+  .nav-center a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 459px) {
+  .nav-center a {
+    font-size: 18px;
+  }
+  .nav-right a {
+    font-size: 18px;
+  }
+}

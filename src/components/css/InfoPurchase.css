@@ -153,8 +153,8 @@
   }
 }
 
-@media (max-width: 1080px) and (min-width: 775px) {
+@media (max-width: 1000px) and (min-width: 775px) {
   .purchase-container .col-2 {
-    height: 475px;
+    height: 465px;
   }
 }

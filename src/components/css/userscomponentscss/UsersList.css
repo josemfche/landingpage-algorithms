@@ -45,6 +45,13 @@
 .user-data {
   display: flex;
   align-items: center;
+  justify-content: left;
+}
+.user-data h5 {
+  font-size: 16px;
+}
+.user-data div {
+  margin-left: 5px;
 }
 
 .list-container .buttons {
@@ -92,12 +99,18 @@
 
 @media (max-width: 1060px) {
   .fetch-button {
-    width: 100%;
-    height: 35px;
+    width: 75%;
+    height: 45px;
+    margin: 20px auto 25px auto;
+    font-size: 20px;
+  }
+  .list-container {
+    display: flex;
+    justify-content: center;
   }
   .list-container .item-list {
     display: flex;
-    width: 100%;
+    width: 50%;
     flex-direction: column;
     height: auto;
     align-items: center;
@@ -105,7 +118,7 @@
     border-radius: 5px;
     background-color: #ffffff;
     border: none;
-    margin: 5px 0;
+    margin: 5px auto;
     padding: 0 10px;
     transition: box-shadow 0.2s ease-in-out;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%), 0 -1px 2px 0 rgb(0 0 0 / 10%);
@@ -113,5 +126,25 @@
   }
   .list-container .buttons {
     margin: 0px 0 20px 0;
+  }
+}
+
+@media (max-width: 535px) {
+  .fetch-button {
+    width: 75%;
+    height: 45px;
+    margin: 20px auto 25px auto;
+    font-size: 20px;
+  }
+  .list-container .item-list {
+    display: flex;
+    width: 90%;
+    margin: 5px auto;
+  }
+  .list-container .item-list .user-data {
+    height: 50px;
+  }
+  .list-container .item-list .buttons button {
+    padding: 10px 15px;
   }
 }

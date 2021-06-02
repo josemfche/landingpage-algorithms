@@ -8,15 +8,11 @@ const UsersList = () => {
   const { users } = useSelector((state) => state.users);
   const dispatch = useDispatch();
 
-  /*   useEffect(() => {
-    getUsers();
-  }); */
-
   const getUsers = () => {
     axios
       .get("https://jsonplaceholder.typicode.com/users")
       .then((res) => dispatch({ type: ActionsTypes.GET_USERS, payload: res.data }))
-      .catch((err) => console.error(err));
+      .catch((err) => alert(err));
   };
 
   const setSingleUser = (id) => {
@@ -56,7 +52,7 @@ const UsersList = () => {
             Fetch users
           </button>
           {users.map((user) => (
-            <div className="item-list">
+            <div key={user.id} className="item-list">
               <div className="user-data">
                 <h5>Name: </h5>
                 <div>{user.name}</div>
@@ -67,6 +63,7 @@ const UsersList = () => {
               </div>
               <div className="user-data">
                 <h5>Email: </h5>
+                <br />
                 <div>{user.email}</div>
               </div>
               <div className="user-data">

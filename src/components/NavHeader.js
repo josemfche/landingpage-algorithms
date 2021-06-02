@@ -11,7 +11,7 @@ const NavHeader = () => {
       </div>
       <div className="nav-center nav-text">
         <Link to="/users">
-          <a className="">Manage Your Clients</a>
+          <a className="">Your Clients</a>
         </Link>
       </div>
       <div className="nav-right nav-text">
