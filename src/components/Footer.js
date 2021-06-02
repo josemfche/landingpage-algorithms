@@ -10,37 +10,51 @@ const Footer = () => {
           <ul className="">
             <h4>PRODUCER</h4>
             <li>
-              <a href="#">Hola</a>
+              <a href="#">Staff Person</a>
             </li>
-            <li>Hola</li>
-            <li>Hola</li>
+            <li>
+              <a href="#">Staff Person</a>
+            </li>
+            <li>
+              <a href="#">Staff Person</a>
+            </li>
           </ul>
         </div>
         <div className="footer-col-2">
           <ul className="">
             <h4>DEVELOPER</h4>
             <li>
-              <a href="#">Hola</a>
+              <a href="#">Staff Person</a>
             </li>
-            <li>Hola</li>
-            <li>Hola</li>
+            <li>
+              <a href="#">Staff Person</a>
+            </li>
+            <li>
+              <a href="#">Staff Person</a>
+            </li>
           </ul>
         </div>
         <div className="footer-col-3">
           <ul className="">
             <h4>COMPANY</h4>
-            <li>Hola</li>
-            <li>Hola</li>
-            <li>Hola</li>
+            <li>
+              <a href="#">Staff Person</a>
+            </li>
+            <li>
+              <a href="#">Staff Person</a>
+            </li>
+            <li>
+              <a href="#">Staff Person</a>
+            </li>
           </ul>
         </div>
         <div className="footer-col-4">
           <img src={logopng}></img>
         </div>
         <div className="footer-bottom">
-          <h3>SHOP</h3>
-          <h3>SHOP</h3>
-          <h3>SHOP</h3>
+          <h3>Instagram</h3>
+          <h3>Facebook</h3>
+          <h3>Twitter</h3>
         </div>
       </div>
     </footer>
