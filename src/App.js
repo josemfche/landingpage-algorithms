@@ -7,6 +7,7 @@ import InfoComp1 from "./components/InfoComp1";
 import InfoComp2 from "./components/InfoComp2";
 import CardsSlide from "./components/CardsSlide";
 import InfoPurchase from "./components/InfoPurchase";
+import Footer from "./components/Footer";
 
 const App = () => (
   <div className="main">
@@ -25,6 +26,7 @@ const App = () => (
         <InfoPurchase />
         <InfoComp2 />
       </div>
+      <Footer />
     </div>
   </div>
 );

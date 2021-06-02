@@ -10,7 +10,6 @@ const NavHeader = () => {
       </div>
       <div className="nav-center nav-text">
         <a className=""> Home </a>
-        <a className=""> Deudas </a>
       </div>
       <div className="nav-right nav-text">
         <a className="">Home</a>

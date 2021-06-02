@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0px;
+  margin: 20px 0px 80px 0px;
   background-image: url("../../../public/visabackground.png");
   background-position: left;
   background-repeat: no-repeat;
@@ -30,5 +30,6 @@
 @media (max-width: 755px) {
   .Info-container2 {
     height: 350px;
+    margin-bottom: 20px;
   }
 }
