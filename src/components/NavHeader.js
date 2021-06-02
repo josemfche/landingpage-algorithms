@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/css/NavHeader.css";
+import { Link } from "react-router-dom";
 import logopng from "../../public/visalogo-min.png";
 
 const NavHeader = () => {
@@ -9,10 +10,12 @@ const NavHeader = () => {
         <img src={logopng}></img>
       </div>
       <div className="nav-center nav-text">
-        <a className=""> Home </a>
+        <Link to="/users">
+          <a className="">Manage Your Clients</a>
+        </Link>
       </div>
       <div className="nav-right nav-text">
-        <a className="">Home</a>
+        <a className="">Disabled</a>
       </div>
     </nav>
   );

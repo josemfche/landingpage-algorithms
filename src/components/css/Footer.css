@@ -93,7 +93,15 @@
   width: 100%;
   padding: 15px;
 }
-
+.footer-bottom .insta:hover {
+  color: #d6249f;
+}
+.footer-bottom .face:hover {
+  color: #3b5998;
+}
+.footer-bottom .twitter:hover {
+  color: #00acee;
+}
 @media (max-width: 755px) {
   .footer-container {
     display: grid;

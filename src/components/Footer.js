@@ -52,9 +52,9 @@ const Footer = () => {
           <img src={logopng}></img>
         </div>
         <div className="footer-bottom">
-          <h3>Instagram</h3>
-          <h3>Facebook</h3>
-          <h3>Twitter</h3>
+          <h3 className="insta">Instagram</h3>
+          <h3 className="face">Facebook</h3>
+          <h3 className="twitter">Twitter</h3>
         </div>
       </div>
     </footer>

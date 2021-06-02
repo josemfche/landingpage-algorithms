@@ -51,8 +51,10 @@ const UsersList = () => {
   return (
     <>
       <>
-        <button onClick={getUsers}>Get users</button>
         <div className="list-container">
+          <button className="fetch-button" onClick={getUsers}>
+            Fetch users
+          </button>
           {users.map((user) => (
             <div className="item-list">
               <div className="user-data">

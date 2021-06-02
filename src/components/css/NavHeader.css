@@ -19,8 +19,18 @@
 .nav-center {
   justify-content: center;
 }
-.nav-right {
+.nav-center a {
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+}
+.nav-center a:hover {
+  font-weight: 600;
+}
+.nav-right a {
   justify-content: flex-end;
+  font-size: 24px;
 }
 .nav-text {
   text-decoration: none;
