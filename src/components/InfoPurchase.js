@@ -10,8 +10,8 @@ const InfoPurchase = () => {
         <div className="info">
           <h2>Purchase Anywhere</h2>
           <p>
-            When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open
-            and close the topnav (.icon)
+            Tap to pay with Visa for a chance to win $25,000 for you and $25,000 for your favorite small business. No Purchase Necessary. Open to
+            U.S., 18+. Ends 6/30/21. Click the arrow above to find out more.
           </p>
           <button className="purchase-button">More information</button>
         </div>

@@ -6,9 +6,8 @@ const InfoComp1 = () => {
       <div className="Info-text">
         <h2>Get Your Card</h2>
         <p>
-          Visa Inc. es una multinacional de servicios financieros con sede en Foster City, California, Estados Unidos.​ Facilita las transferencias
-          electrónicas de fondos en todo el mundo, más comúnmente a través de tarjetas de crédito, débito, prepago, regalo y monedero con la marca
-          Visa.​
+          Visa’s Spending Momentum Index helps assess the upturns and downturns in consumer spending cycles — an indication of consumer participation
+          in the recovery. No matter what you’re trying to accomplish, find tools, resources and advice at the Small Business Hub.
         </p>
       </div>
     </div>
